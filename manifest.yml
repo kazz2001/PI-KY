@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: PI-KY
+  host: PI-KY
+  disk_quota: 1024M
+  services:
+  - PI-KY-personality_insights
